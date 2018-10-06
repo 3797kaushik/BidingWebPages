@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Auction Hack</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" >
+  <link rel="stylesheet" href="css/main.css" >
+  <link rel="stylesheet" href="css/item_detail.css" >
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+  <script src="ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ItemDetail.js"></script>
+
+
+</head>
+<body><!-- Top Nav Bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container">
+    <a href="#" class="navbar-brand"> Auction Hack</a>
+    <ul class="nav navbar-nav">
+	  <li class="dropdown">
+	    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bidding<span class="caret"></span></a>
+		<ul class="dropdown-menu" role="Bidding">
+		  <li><a href="#">Bidding</a></li>
+		  <li><a href="#">Payment</a></li>
+		</ul>
+	  </li>
+	</ul>
+   </div>
+  </nav>
+  <!-- header -->
+  <div id="headerWrapper">
+    <div class="container">
+    <div class="row" style="margin-top:5%">
+        <div class="col-md-7">
+            <div class="row" id="gradient">
+                <div class="col-md-4">
+                    <img src="http://www.prepbootstrap.com/Content/images/shared/misc/s7e.png" class="img-responsive">
+                </div>
+                <div class="col-md-8" id="overview" >
+                    <div class="row">
+                        <div class="col-xs-6 col-md-6">
+                            <ul class="pb-product-details-ul">
+                                <li><span class="fa fa-calendar">&nbsp;Released 2016, March</span></li>
+                                <li><span class="fa fa-phone">&nbsp;157g, 7.7mm thickness</span></li>
+                                <li><span class="fa fa-bluetooth-b">&nbsp;Android OS, v6.0, up to 7.0</span></li>
+                                <li><span class="fa fa-microchip">&nbsp;32/64/128GB Storage</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-3 col-md-3 text-center" id="hits">
+                            <span class="fa fa-bar-chart" id="countDownTimer"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 col-md-3 pb-product-details-fa">
+                            <span class="fa fa-mobile fa-lg"></span>
+                            <h3><strong>5.5"</strong></h3>
+                            <p>1440x2560 pixels</p>
+                        </div>
+                        <div class="col-xs-3 col-md-3 pb-product-details-fa">
+                            <span class="fa fa-camera fa-lg"></span>
+                            <h3><strong>12 MP</strong></h3>
+                            <p>2160p</p>
+                        </div>
+                        <div class="col-xs-3 col-md-3 pb-product-details-fa">
+                            <span class="fa fa-microchip fa-lg"></span>
+                            <h3><strong>4GB RAM</strong></h3>
+                            <p>Exynos 8890</p>
+                        </div>
+                        <div class="col-xs-3 col-md-3 pb-product-details-fa">
+                            <span class="fa fa-battery-4 fa-lg"></span>
+                            <h3><strong>3600mAH</strong></h3>
+                            <p>Li-ion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" style="margin-left:5%">
+          <div class="row"><span class="label label-primary" style="font-size:18px">LEADERBOARD</span></div>
+          <div class="row">
+            <table>
+              <tbody>
+                <tr>
+                	<th>Rank</th>
+                	<th>Username</th>
+                	<th>Points</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Jessie</td>
+                  <td>102,345</td>
+            	  </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Bob</td>
+                  <td>2,321</td>
+            	  </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Jessie</td>
+                  <td>102,345</td>
+            	  </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Bob</td>
+                  <td>2,321</td>
+            	  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $(".tabs_div").shieldTabs();
+    });
+</script>
+
+  </div>
+
+
+</body>
+
+</html>
